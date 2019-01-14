@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.1
+// @version      1.2
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    https://raw.githack.com/Technetium1/TinychatTheme/master/theme.user.js
@@ -803,7 +803,7 @@ color: white;
           //console.log("I think you switched, meaning we should wipe chat");
           //document.getElementsByClassName("sendre")[0].innerHTML = "";
           var thetab = document.getElementById("tab_#");
-          drawmsg("―――――――――――――――――――――――――――――――――――", thetab, "System", "appnotice", 0);
+          drawmsg("―――――――――――――――――――――――――――――", thetab, "System", "appnotice", 0);
         }
 
         lastmode = content.shadowRoot.getElementById("room-content").childNodes[1].shadowRoot.getElementById("chat-instant").getElementsByClassName("nickname")[0].title;
