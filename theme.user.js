@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.0
+// @version      1.1
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    https://github.com/Technetium1/TinychatTheme/raw/master/theme.user.js
@@ -8,7 +8,7 @@
 // @exclude      https://tinychat.com/room/*?notheme
 // @grant        GM_addStyle
 // ==/UserScript==
-
+// TEST
 // You can use ?notheme at the end of the room's name to load without applying this script
 
 // Import Roboto Mono Font
