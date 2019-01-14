@@ -491,9 +491,9 @@ article{
   min-width: 0px;
   min-height: 0px;
   font-family: 'Roboto Mono', Monospace;
-  letter-spacing: .05em;
+  //letter-spacing: .05em;
   font-weight: 400;
-  //word-spacing: -0.3em;
+  word-spacing: -0.3em;
   line-height: 19px;
 
   font-size: 15.5px;
