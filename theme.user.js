@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.0
+// @version      1.1
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    https://raw.githack.com/Technetium1/TinychatTheme/master/theme.user.js
@@ -524,7 +524,7 @@ input {
 
 
 .sendre,.pmtab {
-  padding: 4px;
+  padding: 1px;
   box-sizing: border-box;
   overflow-y: scroll;
   border: 1px solid grey;
@@ -536,9 +536,9 @@ input {
 .chatentry {
   word-wrap: break-word;
   white-space: pre-wrap;
-  margin-left: 4px;
-  margin-bottom: 4px;
-  margin-top: 4px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  margin-top: 1px;
 }
 
 .timestamp {
