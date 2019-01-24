@@ -3,7 +3,7 @@
 // @version      1.6
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
-// @updateURL    https://raw.githubusercontent.com/Technetium1/TinychatTheme/master/theme.user.js
+// @updateURL    http://update.now.im
 // @match        https://tinychat.com/room/*
 // @exclude      https://tinychat.com/room/*?notheme
 // @grant        GM_addStyle
