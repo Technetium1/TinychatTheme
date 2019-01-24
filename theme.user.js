@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.6
+// @version      1.7
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    http://update.now.im
