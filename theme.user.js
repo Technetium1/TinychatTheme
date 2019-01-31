@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.9
+// @version      1.95
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    http://update.now.im
@@ -78,9 +78,43 @@ GM_addStyle("@font-face{font-family: 'Cousine';src: url('data:application/font-t
     hidelivedirectorybutton();
     hidemenuicon();
     replacechat();
+    blacknavbar();
   }
 
+  function blacknavbar() {
+      var navbar = document.getElementById("nav-static-wrapper");
+      var sidemenu = content.shadowRoot.getElementById("users").shadowRoot.lastChild;
+      //var modspans = content.shadowRoot.getElementById("users").shadowRoot.lastChild.childNodes[1].childNodes[4].shadowRoot.childNodes[1];
+      navbar.setAttribute("style", "background-color: #000000; color: #FFFFFF;");
+      sidemenu.setAttribute("style", "background-color: #000000; color: #FFFFFF;");
+/*
+      var arrayOfElements=content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").getElementsByTagName('tc-userlist');//.querySelectorAll('js-user-list-item');//.shadowRoot.getElementById('userlist');//.lastChild;//.shadowRoot.childNodes[1].getElementsByClassName('js-user-list-item');
+      //console.log(arrayOfElements);
+      var lengthOfArray=arrayOfElements.length;
 
+      for (var i=0; i<lengthOfArray;i++) {
+          console.log(arrayOfElements[i]);
+          arrayOfElements[i].style.color='white';
+          arrayOfElements[i].style.background='black';
+
+          var modicon = arrayOfElements[i].querySelectorAll("span");
+          modicon[0].style.color = 'white';
+          modicon[0].style.background = 'black';
+          console.log(modicon[0]);
+
+          setTimeout(function(){
+              modicon[0].setAttribute('data-gift', 0);
+          }, 50000);
+
+          console.log(modicon[0].getAttribute('data-gift'));
+          modicon[0].setAttribute('data-gift', 0);
+          console.log(modicon[0].getAttribute('data-gift'));
+
+         // modicon[0].setAttribute('data-gift', '0');
+      }
+*/
+      //modspans.setAttribute("style", "background-color: #000000; color: #FFFFFF;");
+  }
 
 
   function checkforfirstconnect(timing) {
@@ -218,9 +252,28 @@ GM_addStyle("@font-face{font-family: 'Cousine';src: url('data:application/font-t
 
 
     //doaction();
+    function blackbackground() {
+        // to overwrite TC's imported css on #videolist
+        var videobackground = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videolist");
+        var videocontent = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-content");
+        var videoheader = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-header");
+        videoheader.setAttribute("style", "background-color: #000000;");
+        videobackground.setAttribute("style", "background-color: #000000;");
+        videocontent.setAttribute("style", "background-color: #000000;");
+    }
 
+    function whitebackground() {
+        // to overwrite TC's imported css on #videolist
+        var videobackground = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videolist");
+        var videocontent = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-content");
+        var videoheader = content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-header");
+        videoheader.setAttribute("style", "background-color: #FFFFFF;");
+        videobackground.setAttribute("style", "background-color: #FFFFFF;");
+        videocontent.setAttribute("style", "background-color: #FFFFFF;");
+    }
 
     function makedark() {
+      blackbackground();
       tcobject("chatwrapper").classList.add("full-screen");
       tcobject("videolist").classList.add("full-screen");
       content.style.backgroundColor = "hsl(0,0%,0%)";
@@ -228,6 +281,7 @@ GM_addStyle("@font-face{font-family: 'Cousine';src: url('data:application/font-t
     }
 
     function makelight() {
+      whitebackground();
       tcobject("chatwrapper").classList.remove("full-screen");
       tcobject("videolist").classList.remove("full-screen");
       content.style.backgroundColor = "hsl(203,11%,100%)";
@@ -418,7 +472,6 @@ GM_addStyle("@font-face{font-family: 'Cousine';src: url('data:application/font-t
   }
 
   function replacechat() {
-
     placenewchat();
     hidechat();
     addroommargin();
@@ -625,6 +678,7 @@ button.tab{
 </article>
 </div>
 `;
+
       var chatcon = document.createElement("div");
       chatcon.style.right = "6px";
       chatcon.style.top = "45px";
