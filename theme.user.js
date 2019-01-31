@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.7
+// @version      1.8
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    http://update.now.im
@@ -496,19 +496,16 @@ article{
   word-spacing: -0.3em;
   line-height: 19px;
   text-shadow: 0.5px 0.5px 0px #101010;
-  font-size: 15.5px;
-    // margin: 4px;
-
+  font-size: 15px;
+  //margin: 4px;
   order: 1;
   //align-self: flex-end;
 }
 
 button,input{
-
- font-family: inherit;
-    font-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
-
 
 input {
   font-size: 20px;
@@ -518,10 +515,9 @@ input {
   //flex: 1;
   height: 32px;
   //width: 100%;
-   min-width: 0px;
+  min-width: 0px;
   //overflow: hidden;
 }
-
 
 .sendre,.pmtab {
   padding: 1px;
@@ -529,7 +525,6 @@ input {
   overflow-y: scroll;
   border: 1px solid grey;
   //border-bottom: 0px;
-
   //word-wrap: break-word;
 }
 
@@ -563,13 +558,13 @@ input {
 /**/
 
 .chatbox > .tabbar > button > .flexdiv{
-
-   display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-right: var(--taboverlap);
   padding-left: var(--taboverlap);
 }
+
 
 /**/
 body{
@@ -579,13 +574,10 @@ body{
 //display: flex;
 //  flex-direction:column;
 //  height: 100%;
-
 //}
 
-
-
 .chatbox > .tabbar{
-//background-color: red;
+  //background-color: red;
   position: relative;
   display: flex;
   height: var(--tabbarheight);
@@ -593,33 +585,32 @@ body{
   margin-bottom: calc(var(--chatbordersize) * -1);
   //margin-right: var(--tabbarrightmargin);
   //overflow: hidden;
-
 }
 
 button.tab{
   border: 1px solid black;
   //border-radius: 8px 30px 0px 0px;
-
   background: linear-gradient(to bottom, hsla(0,0%,100%,0.5) 0%, hsla(0,0%,100%,1) 100%);
-    border-bottom: 0px;
+  border-bottom: 0px;
 }
 
 .darkmode .sendre,.pmtab{
-background-color: hsl(0,0%,0%);
+  background-color: hsl(0,0%,0%);
+  border-color: transparent;
 }
 
 .darkmode .timestamp{
-color: white;
+  color: white;
 }
 
 .darkmode .sendre
 {
-color: white;
+  color: white;
 }
 
 .darkmode .sendre a
 {
-color: white;
+  color: white;
 }
 
 </style>
@@ -803,7 +794,7 @@ color: white;
           //console.log("I think you switched, meaning we should wipe chat");
           //document.getElementsByClassName("sendre")[0].innerHTML = "";
           var thetab = document.getElementById("tab_#");
-          drawmsg("―――――――――――――――――――――――――――――", thetab, "System", "appnotice", 0);
+          drawmsg("――――――――――――――――――――――――――――――", thetab, "System", "appnotice", 0);
         }
 
         lastmode = content.shadowRoot.getElementById("room-content").childNodes[1].shadowRoot.getElementById("chat-instant").getElementsByClassName("nickname")[0].title;
