@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.8
+// @version      1.9
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & variousrainclouds
 // @updateURL    http://update.now.im
@@ -644,8 +644,8 @@ button.tab{
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat-wrapper").style.position = "fixed";
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat-wrapper").style.minWidth = "0px";
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat-wrapper").style.backgroundColor = "transparent";
+      content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat-wrapper").style.borderColor = "transparent";
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat-wider").style.position = "fixed";
-
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chat").style.display = "none";
 
       content.shadowRoot.getElementById("room-content").lastChild.shadowRoot.getElementById("chatlog-button").style.display = "none";
