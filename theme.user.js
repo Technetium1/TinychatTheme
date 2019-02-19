@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.96
+// @version      1.97
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & github.com/NopNotMe
 // @updateURL    http://update.now.im
@@ -383,16 +383,16 @@
         setTimeout(function() {
           document.title = originaltitle;
         }, timing / 2);
-        tcobject("usersicon").style.animation = "flash 0.5s linear 0s infinite alternate";
+        tcobject("usersicon").style.animation = "flash 0.2s linear 0s infinite normal";
       } else {
         if (greenroomcount > 0) {
           document.title = "Greenroom has pending cams";
           setTimeout(function() {
             document.title = originaltitle;
           }, timing / 2);
-          tcobject("usersicon").style.animation = "flash 0.5s linear 0s infinite alternate";
+          tcobject("usersicon").style.animation = "flash 0.2s linear 0s infinite normal";
         } else {
-          tcobject("usersicon").style.animation = "flash 0.5s linear 0s 0 alternate";
+          tcobject("usersicon").style.animation = "flash 0.2s linear 0s 0 normal";
         }
       }
 
