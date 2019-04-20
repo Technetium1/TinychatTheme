@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.97
+// @version      1.98
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & github.com/NopNotMe
-// @updateURL    http://update.now.im
+// @updateURL    https://git.io/TechThemeUpdate
 // @match        https://tinychat.com/room/*
 // @exclude      https://tinychat.com/room/*?notheme
 // @grant        GM_addStyle
@@ -567,6 +567,7 @@
   flex:1;
   min-height: 0px;
   min-width: 0px;
+  overflow-x: hidden;
 }
 .chatbox{
     //margin-left: 4px;
