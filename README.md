@@ -1,7 +1,7 @@
 # Tech's Tinychat Theme
 ---
 
-## [**>>> CLICK HERE TO INSTALL! <<<**](https://github.com/Technetium1/TinychatTheme/raw/master/theme.user.js)
+## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/Technetium1/TinychatTheme/raw/master/theme.user.js)
 
 ### :exclamation::no_entry_sign: **NOT** compatible with **ANY** other Tinychat userscripts.
 
