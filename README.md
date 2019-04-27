@@ -11,7 +11,7 @@
 * Requires [**Tampermonkey**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
-
+* OPERA NOTE: Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)
 ---
 
 
