@@ -24,4 +24,5 @@
 
 # Preview:
 
+### ***Click to see full size!***
 ![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.jpg)
