@@ -18,4 +18,10 @@
 
 # Change your settings to allow automatic updating every 6-12 hours!:
 
-![alt text](https://github.com/Technetium1/TinychatTheme/raw/master/Tampermonkey_Settings.png "Tampermonkey Settings")
+![Tampermonkey Settings](https://github.com/Technetium1/TinychatTheme/raw/master/Tampermonkey_Settings.png)
+
+---
+
+# Preview:
+
+![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.jpg)
