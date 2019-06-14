@@ -14,8 +14,6 @@
 * OPERA NOTE: Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)
 ---
 
-
-
 # Change your settings to allow automatic updating every 6-12 hours!:
 
 ![Tampermonkey Settings](https://github.com/Technetium1/TinychatTheme/raw/master/Tampermonkey_Settings.png)
@@ -26,3 +24,6 @@
 
 ### ***Click to see full size!***
 ![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.jpg)
+
+# Need more help?
+[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/ZvtBPBK)
