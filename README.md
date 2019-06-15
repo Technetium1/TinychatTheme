@@ -11,7 +11,7 @@
 * Requires [**Tampermonkey**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
-* OPERA NOTE: Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)
+* OPERA NOTE: ~Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)~ Opera is currently blacklisting Tampermonkey for some reason 🤔, [but it might still work in the newest Opera releases?](https://forums.opera.com/topic/30359/tampermonkey-chrome-extension-blocked/37)
 ---
 
 # Change your settings to allow automatic updating every 6-12 hours!:
