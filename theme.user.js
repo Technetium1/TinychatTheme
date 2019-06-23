@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.99
+// @version      1.99.1
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & github.com/NopNotMe
 // @updateURL    https://git.io/TechThemeUpdate
@@ -609,7 +609,7 @@ article{
   //letter-spacing: .05em;
   font-weight: 400;
   word-spacing: -0.3em;
-  line-height: 20px;
+  line-height: 19.5px;
   text-shadow: 0.5px 0.5px 0px #101010;
   font-size: 16px;
   //margin: 4px;
