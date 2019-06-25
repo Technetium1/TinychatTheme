@@ -12,6 +12,7 @@
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
 * OPERA NOTE: ~Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)~ Opera is currently blacklisting Tampermonkey for some reason 🤔, [but it might still work in the newest Opera releases?](https://forums.opera.com/topic/30359/tampermonkey-chrome-extension-blocked/37)
+* Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, but not impossible! https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android
 ---
 
 # Change your settings to allow automatic updating every 6-12 hours!:
