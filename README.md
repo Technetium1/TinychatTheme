@@ -7,12 +7,12 @@
 
 ---
 
-* Developed on Chrome, and working on Firefox and Opera[*see note*]
-* Requires [**Tampermonkey**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* Developed on Chrome, working on Firefox, and Opera[*see note*]
+* Requires [**Tampermonkey from the Chrome Web Store**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
-* OPERA NOTE: ~Tampermonkey in Opera requires the installation of [THIS EXTENSION](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)~ Opera is currently blacklisting Tampermonkey for some reason 🤔, [but it might still work in the newest Opera releases?](https://forums.opera.com/topic/30359/tampermonkey-chrome-extension-blocked/37)
-* Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, but not impossible! https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android
+* **OPERA NOTE:** Opera requires a [**different version of Tampermonkey**](https://addons.opera.com/en/extensions/details/tampermonkey-beta/), currently there are issues with Tinychat on Opera, as it's an unsupported browser, but it seems to be issues with the browser itself, not this script.
+* Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, [**but not impossible**](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android)!
 ---
 
 # Change your settings to allow automatic updating every 6-12 hours!:
