@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.99.2
+// @version      1.99.3
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & github.com/NopNotMe
 // @updateURL    https://git.io/TechThemeUpdate
@@ -92,7 +92,7 @@
     }
     // };
   }
-  removeVideoBorder();
+  //removeVideoBorder();
 
   function darkSidemenu() {
     var arrayOfElements = content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").getElementsByTagName('tc-userlist');
@@ -568,9 +568,27 @@
   min-height: 0px;
   min-width: 0px;
   overflow-x: hidden;
+  scrollbar-width: thin;
+  //firefox only allows scrollbar-width to be set as there is no webkit support
 }
+
+::-webkit-scrollbar{
+  width: 0.4em;
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0.1em rgba(0,0,0,1);
+}
+
+::-webkit-scrollbar-thumb{
+  width: 0.4em;
+  background-color: #0000ff;
+  border-radius: 0.2em;
+}
+
 .chatbox{
-    //margin-left: 4px;
+  //margin-left: 4px;
   //margin-right:  4px;
   //margin-top: 4px;
   flex: 1;
@@ -580,10 +598,8 @@
   display:flex;
   flex-direction: column;
   //width: 100%;
- // height: 100%;
+  //height: 100%;
   background: linear-gradient(to bottom, hsla(0,0%,100%,0.5) 0%,hsla(0,0%,100%,0.5) 100%);
-
-
   //outline: 1px solid hsl(0,0%,0%);
   padding: 0px;
 }
@@ -684,6 +700,7 @@ input {
 body{
   //background-color: black;
 }
+
 //.chatbox{
 //display: flex;
 //  flex-direction:column;
