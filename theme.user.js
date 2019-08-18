@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.99.5
+// @version      1.99.6
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       github.com/Technetium1 & github.com/NopNotMe
 // @updateURL    https://git.io/TechThemeUpdate
@@ -943,7 +943,7 @@ button.tab{
           var triggers = GM_getValue("triggers");
           var regex = new RegExp("\\b"+triggers+"\\b", "giu");
           var mynicknameused = message.match(regex);
-          if (mynicknameused){
+          if (mynicknameused && lastmode === "undefined"){
             notify();
           };
           msgs[i].classList.add("msgprocessed");
