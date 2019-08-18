@@ -943,7 +943,7 @@ button.tab{
           var triggers = GM_getValue("triggers");
           var regex = new RegExp("\\b"+triggers+"\\b", "giu");
           var mynicknameused = message.match(regex);
-          if (mynicknameused){
+          if (mynicknameused && lastmode === "undefined"){
             notify();
           };
           msgs[i].classList.add("msgprocessed");
