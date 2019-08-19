@@ -2,7 +2,7 @@
 // @name         Tech's Tinychat Theme
 // @version      1.99.7
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
-// @author       github.com/Technetium1 & github.com/NopNotMe
+// @author       https://github.com/Technetium1
 // @updateURL    https://git.io/TechThemeUpdate
 // @match        https://tinychat.com/room/*
 // @exclude      https://tinychat.com/room/*?notheme
