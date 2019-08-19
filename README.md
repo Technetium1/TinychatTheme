@@ -8,10 +8,13 @@
 ---
 
 * Developed on Chrome, working on Firefox, and Opera[*see note*]
-* Requires [**Tampermonkey from the Chrome Web Store**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* Requires Tampermonkey:
+  * [**Chrome Extension**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+  * [**Firefox Extension**](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+  * [**Opera Extension**](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
-* **OPERA NOTE:** Opera requires a [**different version of Tampermonkey**](https://addons.opera.com/en/extensions/details/tampermonkey-beta/), currently there are issues with Tinychat on Opera, as it's an unsupported browser, but it seems to be issues with the browser itself, not this script.
+* **OPERA NOTE:** There may be issues with Tinychat on Opera, but it seems to be the browser itself -- not this script.
 * Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, [**but not impossible**](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android)!
 ---
 
