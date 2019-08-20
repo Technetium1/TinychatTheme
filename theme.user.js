@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.99.8
+// @version      1.99.9
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       https://github.com/Technetium1
 // @updateURL    https://git.io/TechThemeUpdate
@@ -254,7 +254,7 @@
 
   function addnightmodebutton() {
     var span = document.createElement("span");
-    span.innerHTML = `<svg id="nightmodebutton" fill="hsl(0, 0%, 50%)" height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg">
+    span.innerHTML = `<svg id="nightmodebutton" fill="hsl(202, 83%, 63%)" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0h24v24H0z" fill="none"/>
     <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6c3.31 0 6 2.69 6 6s-2.69 6-6 6z"/>
 </svg>`;
@@ -268,8 +268,8 @@
 
   function addnotificationbutton() {
     var span = document.createElement("span");
-    span.innerHTML = `<svg id="notificationbutton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" version="1.1">
-<path style="fill-rule:nonzero;fill:hsl(0, 0%, 50%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 255 510 C 283.077393 510 305.987549 487.027588 305.987549 459.012451 L 204.012451 459.012451 C 204.012451 487.027588 226.922607 510 255 510 Z M 420.725098 356.975098 L 420.725098 216.774902 C 420.725098 137.709961 367.185059 73.959961 293.225098 56.092529 L 293.225098 38.225098 C 293.225098 17.867432 275.419922 0 255 0 C 234.580078 0 216.774902 17.867432 216.774902 38.225098 L 216.774902 56.092529 C 142.814941 73.959961 89.274902 137.709961 89.274902 216.774902 L 89.274902 356.975098 L 38.225098 408.024902 L 38.225098 433.487549 L 471.774902 433.487549 L 471.774902 408.024902 Z M 369.737549 382.5 L 140.262451 382.5 L 140.262451 216.774902 C 140.262451 153.024902 191.25 101.975098 255 101.975098 C 318.75 101.975098 369.737549 153.024902 369.737549 216.774902 Z M 369.737549 382.5 " transform="matrix(0.0627451,0,0,0.0627451,0,0)"/>
+    span.innerHTML = `<svg id="notificationbutton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 32 32" version="1.1">
+<path style="fill-rule:nonzero;fill:hsl(202, 83%, 63%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 255 510 C 283.077393 510 305.987549 487.027588 305.987549 459.012451 L 204.012451 459.012451 C 204.012451 487.027588 226.922607 510 255 510 Z M 420.725098 356.975098 L 420.725098 216.774902 C 420.725098 137.709961 367.185059 73.959961 293.225098 56.092529 L 293.225098 38.225098 C 293.225098 17.867432 275.419922 0 255 0 C 234.580078 0 216.774902 17.867432 216.774902 38.225098 L 216.774902 56.092529 C 142.814941 73.959961 89.274902 137.709961 89.274902 216.774902 L 89.274902 356.975098 L 38.225098 408.024902 L 38.225098 433.487549 L 471.774902 433.487549 L 471.774902 408.024902 Z M 369.737549 382.5 L 140.262451 382.5 L 140.262451 216.774902 C 140.262451 153.024902 191.25 101.975098 255 101.975098 C 318.75 101.975098 369.737549 153.024902 369.737549 216.774902 Z M 369.737549 382.5 " transform="matrix(0.0627451,0,0,0.0627451,0,0)"/>
 </svg>
 `;
 
