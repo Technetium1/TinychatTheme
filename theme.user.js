@@ -281,7 +281,7 @@
   }
 
   function triggersettings() {
-    var triggers = prompt("Please *CAREFULLY* enter your trigger words, seperated by |\nFor example: bacon|lettuce|tomato\nNOTE: Cancelling this prompt will remove your triggers!", "Trigger|words|here");
+    var triggers = prompt("Please *CAREFULLY* enter your trigger words, seperated by a pipe: |\nFor example: bacon|lettuce|tomato\nNOTE: Cancelling this prompt will remove your triggers!", "Trigger|words|here");
     if (triggers == null || triggers == "") {
       console.log("Cancelled trigger settings, clearing triggers!");
       console.log(GM_getValue("triggers"));
