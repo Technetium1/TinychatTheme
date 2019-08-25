@@ -614,7 +614,7 @@
 
 ::-webkit-scrollbar-thumb{
   width: 0.4em;
-  background-color: #0000ff;
+  background-color: #000061;
   border-radius: 0.2em;
 }
 
