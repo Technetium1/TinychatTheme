@@ -960,7 +960,7 @@ button.tab{
   soundeffect.play();
   };
 
-        if (i > 9) {
+        if (i > 18) {
           console.log("Wow just processed " + i + " lines at once. perhaps an error has occured????");
           if (lastmode != currentmode) {
             console.log("not to worry, you just came from PM's");
