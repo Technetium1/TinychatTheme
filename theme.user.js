@@ -1,11 +1,18 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      1.99.9
+// @version      2.00
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       https://github.com/Technetium1
 // @updateURL    https://git.io/TechThemeUpdate
-// @match        https://tinychat.com/room/*
+// @match        https://tinychat.com/*
+// @exclude      https://tinychat.com
 // @exclude      https://tinychat.com/room/*?notheme
+// @exclude      https://tinychat.com/*?notheme
+// @exclude      https://tinychat.com/coins/*
+// @exclude      https://tinychat.com/settings/*
+// @exclude      https://tinychat.com/promote/*
+// @exclude      https://tinychat.com/subscription/*
+// @exclude      https://tinychat.com/gifts/*
 // @grant        GM_addStyle
 // @grant        GM_notification
 // @grant        GM_setValue
