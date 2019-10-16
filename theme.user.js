@@ -18,6 +18,7 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_listValues
+// @run-at       document-start
 // ==/UserScript==
 
 // You can use ?notheme at the end of the room's name to load without applying this script
