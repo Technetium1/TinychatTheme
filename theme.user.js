@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      2.01
+// @version      2.02
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       https://github.com/Technetium1
 // @updateURL    https://git.io/TechThemeUpdate
@@ -18,7 +18,7 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_listValues
-// @run-at       document-start
+// @run-at       document-idle
 // ==/UserScript==
 
 // You can use ?notheme at the end of the room's name to load without applying this script
