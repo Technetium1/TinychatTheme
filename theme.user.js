@@ -28,38 +28,22 @@
 
   function tcobject(input) {
     switch (input) {
-      case "modalclosebutton":
-        return content.shadowRoot.getElementById("modal").childNodes[0].shadowRoot.getElementById("close-button");
-      case "enterfullscreenSVG":
-        return content.shadowRoot.getElementById('room-content').childNodes[0].shadowRoot.getElementById('videos-header-fullscreen').childNodes[0];
-      case "exitfullscreenSVG":
-        return content.shadowRoot.getElementById('room-content').childNodes[0].shadowRoot.getElementById('videos-header-fullscreen').childNodes[1];
-      case "usersbynickname":
-        return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.shadowRoot.querySelectorAll(".nickname");
-      case "descriptionbar":
-        return content.shadowRoot.getElementById("room").getElementsByTagName("tc-title")[0];
-      case "usersicon":
-        return document.getElementById("users-icon");
-      case "menuicon":
-        return document.getElementById("menu-icon");
-      case "room":
-        return content.shadowRoot.getElementById("room");
-      case "sidemenu":
-        return content.shadowRoot.getElementById("users").shadowRoot.lastChild;
-      case "directmsgs":
-        return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.previousSibling.shadowRoot.querySelectorAll('span[data-messages]');
-      case "chatwrapper":
-        return content.shadowRoot.getElementById("room-content").childNodes[1].shadowRoot.getElementById("chat-wrapper");
-      case "videolist":
-        return content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videolist");
-      case "headerbuttons":
-        return content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-header");
-      case "settingsspan":
-        return content.shadowRoot.getElementById("room").getElementsByTagName("tc-title")[0].shadowRoot.getElementById("room-header-info").childNodes[2];
-      case "livedirectorybutton":
-        return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").childNodes[1];
-      case "greenroom":
-        return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.previousSibling.previousSibling.shadowRoot.getElementById("moderatorlist");
+      case "modalclosebutton": return content.shadowRoot.getElementById("modal").childNodes[0].shadowRoot.getElementById("close-button");
+      case "enterfullscreenSVG": return content.shadowRoot.getElementById('room-content').childNodes[0].shadowRoot.getElementById('videos-header-fullscreen').childNodes[0];
+      case "exitfullscreenSVG": return content.shadowRoot.getElementById('room-content').childNodes[0].shadowRoot.getElementById('videos-header-fullscreen').childNodes[1];
+      case "usersbynickname": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.shadowRoot.querySelectorAll(".nickname");
+      case "descriptionbar": return content.shadowRoot.getElementById("room").getElementsByTagName("tc-title")[0];
+      case "usersicon": return document.getElementById("users-icon");
+      case "menuicon": return document.getElementById("menu-icon");
+      case "room": return content.shadowRoot.getElementById("room");
+      case "sidemenu": return content.shadowRoot.getElementById("users").shadowRoot.lastChild;
+      case "directmsgs": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.previousSibling.shadowRoot.querySelectorAll('span[data-messages]');
+      case "chatwrapper": return content.shadowRoot.getElementById("room-content").childNodes[1].shadowRoot.getElementById("chat-wrapper");
+      case "videolist": return content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videolist");
+      case "headerbuttons": return content.shadowRoot.getElementById("room-content").childNodes[0].shadowRoot.getElementById("videos-header");
+      case "settingsspan": return content.shadowRoot.getElementById("room").getElementsByTagName("tc-title")[0].shadowRoot.getElementById("room-header-info").childNodes[2];
+      case "livedirectorybutton": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").childNodes[1];
+      case "greenroom": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.previousSibling.previousSibling.shadowRoot.getElementById("moderatorlist");
     }
   }
 
