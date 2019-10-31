@@ -1,4 +1,6 @@
 # Tech's Tinychat Theme
+# THIS SCRIPT WILL NO LONGER BE ACTIVELY MAINTAINED UNLESS THERE ARE MAJOR CHANGES! TINYCHAT IS MOVING TO PAID SUBSCRIPTIONS, AND ALL FUTURE EFFORTS GO TOWARDS [JUMPIN.CHAT](https://jumpin.chat)
+## R.I.P. TINYCHAT OCT 31 2019
 ---
 
 ## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/Technetium1/TinychatTheme/raw/master/theme.user.js)
