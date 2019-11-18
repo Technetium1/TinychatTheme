@@ -1,5 +1,5 @@
 # Tech's Tinychat Theme
-# THIS SCRIPT WILL NO LONGER BE ACTIVELY MAINTAINED UNLESS THERE ARE MAJOR CHANGES! TINYCHAT IS MOVING TO PAID SUBSCRIPTIONS, AND ALL FUTURE EFFORTS GO TOWARDS [JUMPIN.CHAT](https://jumpin.chat)
+# THIS SCRIPT IS NO LONGER ACTIVELY MAINTAINED! TINYCHAT IS MOVING TO PAID SUBSCRIPTIONS USING ANTI-CONSUMER METHODS! ALL FUTURE EFFORTS SHOULD GO TOWARD [JUMPIN.CHAT](https://jumpin.chat)
 ## R.I.P. TINYCHAT OCT 31 2019
 ---
 
@@ -17,7 +17,7 @@
 * You can add `?notheme` at the end of the room's URL to load without applying the script:
   * [https://tinychat.com/room/tech?notheme](https://tinychat.com/room/tech?notheme)
 * **OPERA NOTE:** There may be issues with Tinychat on Opera, but it seems to be the browser itself -- not this script.
-* Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, [**but not impossible**](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android)!
+* ~~Firefox on Android is ***COMPLETELY UNTESTED!*** Not for the average user, [**but not impossible**](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.6-Firefox-Android)!~~
 ---
 
 # Change your settings to allow automatic updating every 6-12 hours!:
@@ -31,5 +31,5 @@
 ### ***Click to see full size!***
 ![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.png)
 
-# Need more help?
-[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/UpDZMB3)
+# Need more help? Add me on Discord!
+[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/)
