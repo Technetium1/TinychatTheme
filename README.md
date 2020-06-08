@@ -26,6 +26,8 @@
 
 ---
 
+[![HitCount](http://hits.dwyl.com/Technetium1/TinychatTheme.svg)](http://hits.dwyl.com/Technetium1/TinychatTheme)
+
 # Preview:
 
 ### ***Click to see full size!***
