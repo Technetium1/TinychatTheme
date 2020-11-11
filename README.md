@@ -26,7 +26,7 @@
 
 ---
 
-[![HitCount](http://hits.dwyl.com/Technetium1/TinychatTheme.svg)](http://hits.dwyl.com/Technetium1/TinychatTheme)
+[![HitCount](https://hits.dwyl.com/Technetium1/TinychatTheme.svg)](https://hits.dwyl.com/Technetium1/TinychatTheme)
 
 # Preview:
 
