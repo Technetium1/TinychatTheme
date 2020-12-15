@@ -34,4 +34,4 @@
 ![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.png)
 
 # Need more help? Add me on Discord!
-[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/)
+[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/abnQKUJtcg)
