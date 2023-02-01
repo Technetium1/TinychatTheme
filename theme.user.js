@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tech's Tinychat Theme
-// @version      2.03
+// @version      2.04
 // @description  Tinychat Theme. Works best in Chrome, but Firefox should be compatible. Only tested with Tampermonkey.
 // @author       https://github.com/Technetium1
 // @updateURL    https://git.io/TechThemeUpdate
@@ -34,7 +34,7 @@
       case "usersbynickname": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.shadowRoot.querySelectorAll(".nickname");
       case "descriptionbar": return content.shadowRoot.getElementById("room").getElementsByTagName("tc-title")[0];
       case "usersicon": return document.getElementById("users-icon");
-      case "menuicon": return document.getElementById("menu-icon");
+      case "menuicon": return document.getElementById("menu");
       case "room": return content.shadowRoot.getElementById("room");
       case "sidemenu": return content.shadowRoot.getElementById("users").shadowRoot.lastChild;
       case "directmsgs": return content.shadowRoot.getElementById("users").shadowRoot.getElementById("sidemenu-content").lastChild.previousSibling.shadowRoot.querySelectorAll('span[data-messages]');
