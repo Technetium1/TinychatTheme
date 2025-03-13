@@ -31,6 +31,3 @@
 
 ### ***Click to see full size!***
 ![Theme Preview](https://github.com/Technetium1/TinychatTheme/raw/master/ThemePreview.png)
-
-# Need more help? Add me on Discord!
-[![Discord](https://discordapp.com/api/guilds/260151582337794058/widget.png?style=banner3)](https://discord.com/widget?id=260151582337794058&theme=dark)
